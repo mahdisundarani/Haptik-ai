@@ -5,7 +5,7 @@ import Logo2 from '../assets/Starhublogo-card-logo.webp'
 import Logo3 from '../assets/paisabazaar-card-logo.webp'
 const ImpNumbers = () => {
   return (
-    <div className='m-4 '>
+    <div className='m-10'>
         {/* heading  */}
         <div className=''>
             <h1 className='font-medium text-xl md:text-3xl text-center mb-4'>Haptik's Impact in Numbers</h1>

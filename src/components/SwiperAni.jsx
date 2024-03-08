@@ -56,7 +56,7 @@ const SwiperAni = () => {
           ]
     }
     return (
-        <div className='m-24'>
+        <div className='m-24 xl:mx-32 max-w-[1500px] '>
             {/* heading */}
             <div>
                 <h1 className='text-2xl lg:text-3xl xl:text-4xl font-medium mb-10 text-center'>Trusted by 500+ Leading Brands</h1>
