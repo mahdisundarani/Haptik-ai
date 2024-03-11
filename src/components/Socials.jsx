@@ -119,7 +119,7 @@ const Socials = () => {
                 </div>
               </div>
               <div className='w-[70%] md:w-[50%] order-1 md:order-2 flex-1'>
-                <img className='h-[400px] mx-auto' src={Website} alt="" />
+                <img className='h-[200px] w-[200px] md:w-[400px] md:h-[400px]  mx-auto' src={Website} alt="" />
               </div>
             </div>
           </div>
@@ -137,7 +137,7 @@ const Socials = () => {
                 </div>
               </div>
               <div className='w-[70%] md:w-[50%] order-1 md:order-2 flex-1'>
-                <img className='h-[400px] mx-auto' src={Whatsapp} alt="" />
+                <img className='h-[200px] w-[200px] md:w-[400px] md:h-[400px]  mx-auto' src={Whatsapp} alt="" />
               </div>
             </div>
           </div>
@@ -155,7 +155,7 @@ const Socials = () => {
                 </div>
               </div>
               <div className='w-[70%] md:w-[50%] order-1 md:order-2 flex-1'>
-                <img className='h-[400px] mx-auto' src={Instagram} alt="" />
+                <img className='h-[200px] w-[200px] md:w-[400px] md:h-[400px]  mx-auto' src={Instagram} alt="" />
               </div>
             </div>
           </div>
@@ -174,7 +174,7 @@ const Socials = () => {
                 </div>
               </div>
               <div className='w-[70%] md:w-[50%] order-1 md:order-2 flex-1'>
-                <img className='h-[400px] mx-auto' src={Messanger} alt="" />
+                <img className='h-[200px] w-[200px] md:w-[400px] md:h-[400px]  mx-auto' src={Messanger} alt="" />
               </div>
             </div>
           </div>
@@ -192,7 +192,7 @@ const Socials = () => {
                 </div>
               </div>
               <div className='w-[70%] md:w-[50%] order-1 md:order-2 flex-1'>
-                <img className='h-[400px] mx-auto' src={Google} alt="" />
+                <img className='h-[200px] w-[200px] md:w-[400px] md:h-[400px]  mx-auto' src={Google} alt="" />
               </div>
             </div>
           </div>  
