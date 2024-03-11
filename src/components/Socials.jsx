@@ -24,7 +24,6 @@ const Socials = () => {
         breakpoint: 1600,
         settings: {
           className: "",
-          dots: true,
           infinite: true,
           slidesToShow: 1,
           slidesToScroll: 1,
@@ -35,7 +34,6 @@ const Socials = () => {
         breakpoint: 1400,
         settings: {
           className: "",
-          dots: true,
           infinite: true,
           slidesToShow: 1,
           slidesToScroll: 1,
@@ -46,7 +44,6 @@ const Socials = () => {
         breakpoint: 1024,
         settings: {
           className: "",
-          dots: true,
           infinite: true,
           slidesToShow: 1,
           slidesToScroll: 1,
@@ -57,7 +54,6 @@ const Socials = () => {
         breakpoint: 600,
         settings: {
           className: "",
-          dots: true,
           infinite: true,
           slidesToShow: 1,
           slidesToScroll: 1,
@@ -68,7 +64,6 @@ const Socials = () => {
         breakpoint: 480,
         settings: {
           className: "",
-          dots: true,
           infinite: true,
           slidesToShow: 1,
           slidesToScroll: 1,
@@ -79,7 +74,7 @@ const Socials = () => {
   }
 
   return (
-    <div className='px-9 my-14 md:max-w-[1100px] lg:max-w-[1300px] mx-auto'>
+    <div className='px-9 mt-14 my-8 md:max-w-[1100px] lg:max-w-[1300px] mx-auto'>
       {/* heading  */}
       <div className='mb-10 sm:mb-2'>
         <h1 className='text-center text-xl sm:text-2xl lg:text-3xl font-medium'>Make Every Channel Count</h1>
@@ -91,19 +86,19 @@ const Socials = () => {
       {/* socials options */}
       <div className='flex space-x-8 justify-evenly overflow-hidden '>
         <div className=''>
-          <button className='text-lg font-medium hover:text-lg hover:text-blue-600 hover:bg-blue-300 p-3 rounded-md focus:text-blue-600 focus:bg-blue-200'> Website</button>
+          <button className='text-sm font-medium hover:text-xl hover:text-blue-600 hover:bg-blue-300 p-3 rounded-md focus:text-blue-600 focus:bg-blue-200'> Website</button>
         </div>
         <div className=''>
-          <button className='text-lg font-medium hover:text-lg hover:text-blue-600 hover:bg-blue-300 p-3 rounded-md focus:text-blue-600 focus:bg-blue-200'> WhatsApp</button>
+          <button className='text-sm font-medium hover:text-xl hover:text-blue-600 hover:bg-blue-300 p-3 rounded-md focus:text-blue-600 focus:bg-blue-200'> WhatsApp</button>
         </div>
         <div className=''>
-          <button className='text-lg font-medium hover:text-lg hover:text-blue-600 hover:bg-blue-300 p-3 rounded-md focus:text-blue-600 focus:bg-blue-200'> Instagram</button>
+          <button className='text-sm font-medium hover:text-xl hover:text-blue-600 hover:bg-blue-300 p-3 rounded-md focus:text-blue-600 focus:bg-blue-200'> Instagram</button>
         </div>
         <div className=''>
-          <button className='text-lg font-medium hover:text-lg hover:text-blue-600 hover:bg-blue-300 p-3 rounded-md focus:text-blue-600 focus:bg-blue-200'> Messenger</button>
+          <button className='text-sm font-medium hover:text-xl hover:text-blue-600 hover:bg-blue-300 p-3 rounded-md focus:text-blue-600 focus:bg-blue-200'> Messenger</button>
         </div>
         <div className=''>
-          <button className='text-lg font-medium hover:text-lg hover:text-blue-600 hover:bg-blue-300 p-3 rounded-md focus:text-blue-600 focus:bg-blue-200'> Google</button>
+          <button className='text-sm font-medium hover:text-xl hover:text-blue-600 hover:bg-blue-300 p-3 rounded-md focus:text-blue-600 focus:bg-blue-200'> Google</button>
         </div>
       </div>
 
@@ -200,9 +195,10 @@ const Socials = () => {
                 <img className='h-[400px] mx-auto' src={Google} alt="" />
               </div>
             </div>
-          </div>
+          </div>  
         </Slider>
       </div>
+
     </div>
   )
 }

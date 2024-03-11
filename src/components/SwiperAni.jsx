@@ -3,15 +3,16 @@ import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import '../App.css'
-import Logo from '../assets/1.webp'
-import Logo2 from '../assets/2.svg'
-import Logo3 from '../assets/3.webp'
-import Logo4 from '../assets/4.webp'
-import Logo5 from '../assets/5.webp'
-import Logo6 from '../assets/6.webp'
-import Logo7 from '../assets/7.webp'
-import Logo8 from '../assets/8.webp'
-import Logo9 from '../assets/9.svg'
+import Logo from '../assets/Swipe/1.webp'
+import Logo2 from '../assets/Swipe/2.svg'
+import Logo3 from '../assets/Swipe/3.webp'
+import Logo4 from '../assets/Swipe/4.webp'
+import Logo5 from '../assets/Swipe/5.webp'
+import Logo6 from '../assets/Swipe/6.webp'
+import Logo7 from '../assets/Swipe/7.webp'
+import Logo8 from '../assets/Swipe/8.webp'
+import Logo9 from '../assets/Swipe/9.svg'
+
 const SwiperAni = () => {
     const settings = {
         infinite: true,

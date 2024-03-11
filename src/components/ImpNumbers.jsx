@@ -1,8 +1,8 @@
 import React from 'react'
-import Jio from '../assets/5.webp'
-import Logo1 from '../assets/Netmeds_card-logo.webp'
-import Logo2 from '../assets/Starhublogo-card-logo.webp'
-import Logo3 from '../assets/paisabazaar-card-logo.webp'
+import Jio from '../assets/ImpNumbers/jio.webp'
+import Logo1 from '../assets/ImpNumbers/Netmeds_card-logo.webp'
+import Logo2 from '../assets/ImpNumbers/Starhublogo-card-logo.webp'
+import Logo3 from '../assets/ImpNumbers/paisabazaar-card-logo.webp'
 const ImpNumbers = () => {
   return (
     <div className='m-10'>

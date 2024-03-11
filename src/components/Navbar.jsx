@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Logo from '../assets/haptik-logo.webp'
+import Logo from '../assets/Navbar/haptik-logo.webp'
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 
 const Navbar = () => {
