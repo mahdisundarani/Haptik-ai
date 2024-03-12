@@ -103,9 +103,6 @@ const Industry = () => {
     infinite: true,
     slidesToShow: 8,
     slidesToScroll: 1,
-    // autoplay: true,
-    // speed: 6000,
-    // autoplaySpeed: 2000,
     cssEase: "linear",
     responsive: [
       {
@@ -222,7 +219,7 @@ const Industry = () => {
 
 
       {/* content slider  */}
-      <div>
+      <div className=''>
         <Slider {...settings2}>
           {/* Retail  */}
           <div className='flex items-center w-[100%]'>
