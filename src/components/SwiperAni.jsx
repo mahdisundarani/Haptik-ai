@@ -66,31 +66,31 @@ const SwiperAni = () => {
             <div  className='h-auto w-[100%] overflow-hidden'>
                 <Slider {...settings}>
                     <div className='flex justify-center items-center'>
-                        <img className='h-14 md:mx-4 lg:ml-6 xl:mx-6 2xl:mx-8' src={Logo} alt="" />
+                        <img className='h-14 md:px-4 lg:px-6 xl:px-6 2xl:px-16' src={Logo} alt="" />
                     </div>
                     <div className='flex justify-center items-center'>
-                        <img className='h-14 md:mx-4 lg:ml-6 xl:mx-6 2xl:mx-8' src={Logo2} alt="" />
+                        <img className='h-14 md:px-4 lg:px-6 xl:px-6 2xl:px-16' src={Logo2} alt="" />
                     </div>
                     <div className='flex justify-center items-center'>
-                        <img className='h-14 md:mx-4 lg:ml-6 xl:mx-6 2xl:mx-8 ' src={Logo3} alt="" />
+                        <img className='h-14 md:px-4 lg:px-6 xl:px-6 2xl:px-16 ' src={Logo3} alt="" />
                     </div>
                     <div className='flex justify-center items-center'>
-                        <img className='h-14 md:mx-4 lg:ml-6 xl:mx-6 2xl:mx-8' src={Logo4} alt="" />
+                        <img className='h-14 md:px-4 lg:px-6 xl:px-6 2xl:px-16' src={Logo4} alt="" />
                     </div>
                     <div className='flex justify-center items-center'>
-                        <img className='h-14 md:mx-4 lg:ml-6 xl:mx-6 2xl:mx-8' src={Logo5} alt="" />
+                        <img className='h-14 md:px-4 lg:px-6 xl:px-6 2xl:px-16' src={Logo5} alt="" />
                     </div>
                     <div className='flex justify-center items-center'>
-                        <img className='h-14 md:mx-4 lg:ml-6 xl:mx-6 2xl:mx-8' src={Logo6} alt="" />
+                        <img className='h-14 md:px-4 lg:px-6 xl:px-6 2xl:px-16' src={Logo6} alt="" />
                     </div>
                     <div className='flex justify-center items-center'>
-                        <img className='h-14 md:mx-4 lg:ml-6 xl:mx-6 2xl:mx-8' src={Logo7} alt="" />
+                        <img className='h-14 md:px-4 lg:px-6 xl:px-6 2xl:px-16' src={Logo7} alt="" />
                     </div>
                     <div className='flex justify-center items-center'>
-                        <img className='h-14 md:mx-4 lg:ml-6 xl:mx-6 2xl:mx-8' src={Logo8} alt="" />
+                        <img className='h-14 md:px-4 lg:px-6 xl:px-6 2xl:px-16' src={Logo8} alt="" />
                     </div>
                     <div className='flex justify-center items-center'>
-                        <img className='h-14 md:mx-4 lg:ml-6 xl:mx-6 2xl:mx-8' src={Logo9} alt="" />
+                        <img className='h-14 md:px-4 lg:px-6 xl:px-6 2xl:px-16' src={Logo9} alt="" />
                     </div>
                 </Slider>
             </div>
