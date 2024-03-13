@@ -1,3 +1,4 @@
+import Blog from "./components/Blog";
 import Customers from "./components/Customers";
 import Hero from "./components/Hero";
 import ImpNumbers from "./components/ImpNumbers";
@@ -18,6 +19,7 @@ function App() {
         <Industry/>
         <Partner/>
         <Customers/>
+        <Blog/>
     </div>
   );
 }
