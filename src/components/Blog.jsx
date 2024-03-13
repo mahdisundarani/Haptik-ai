@@ -47,8 +47,8 @@ const Blog = () => {
                 </div>
             </div>
 
-            <div className='bg-blue-700 rounded-md lg:rounded-3xl text-xl lg:text-3xl font-medium h-[200px] flex flex-col lg:flex-row justify-evenly items-center py-4'>
-                <h1 className='text-center text-2xl lg:text-3xl px-7 max-w-[650px]'>Shape the New Era of Customer Service with Generative AI</h1>
+            <div className='bg-blue-700 rounded-md lg:rounded-3xl text-xl lg:text-3xl font-medium h-[200px] flex flex-col lg:flex-row justify-evenly items-center my-10'>
+                <h1 className='text-center text-white text-2xl lg:text-3xl px-7 max-w-[650px]'>Shape the New Era of Customer Service with Generative AI</h1>
                 <div>
                     <button className='text-blue-700 bg-white py-2 px-6 rounded-sm text-sm'>Get A Demo</button>
                 </div>
