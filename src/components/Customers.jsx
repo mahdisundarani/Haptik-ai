@@ -12,6 +12,27 @@ import Kirti from '../assets/Customers/kotak-kirti-patil-19-12-2022.webp'
 import Badge from '../assets/Customers/Badge-tile-.webp'
 
 const Customers = () => {
+    function SampleNextArrow(props) {
+        const { className, style, onClick } = props;
+        return (
+            <div
+                className={className}
+                style={{ ...style, display: "block", background: "#006DEE" }}
+                onClick={onClick}
+            />
+        );
+    }
+
+    function SamplePrevArrow(props) {
+        const { className, style, onClick } = props;
+        return (
+            <div
+                className={className}
+                style={{ ...style, display: "block", background: "#006DEE" }}
+                onClick={onClick}
+            />
+        );
+    }
 
     const settings = {
 
@@ -32,6 +53,8 @@ const Customers = () => {
                     infinite: true,
                     slidesToShow: 3,
                     slidesToScroll: 1,
+                    nextArrow: <SampleNextArrow />,
+                    prevArrow: <SamplePrevArrow />,
                 }
             },
             {
@@ -43,7 +66,9 @@ const Customers = () => {
                     infinite: true,
                     slidesToShow: 3,
                     slidesToScroll: 1,
-                    
+                    nextArrow: <SampleNextArrow />,
+                    prevArrow: <SamplePrevArrow />,
+
                 }
             },
             {
@@ -55,6 +80,8 @@ const Customers = () => {
                     infinite: true,
                     slidesToShow: 3,
                     slidesToScroll: 1,
+                    nextArrow: <SampleNextArrow />,
+                    prevArrow: <SamplePrevArrow />,
                 }
             },
             {
@@ -66,6 +93,8 @@ const Customers = () => {
                     infinite: true,
                     slidesToShow: 2,
                     slidesToScroll: 1,
+                    nextArrow: <SampleNextArrow />,
+                    prevArrow: <SamplePrevArrow />,
                 }
             },
             {
@@ -77,6 +106,8 @@ const Customers = () => {
                     infinite: true,
                     slidesToShow: 1,
                     slidesToScroll: 1,
+                    nextArrow: <SampleNextArrow />,
+                    prevArrow: <SamplePrevArrow />,
                 }
             }
         ]
@@ -127,7 +158,7 @@ const Customers = () => {
                 </Slider>
             </div>
 
-                {/* badge */}
+            {/* badge */}
             <div className='py-8 '>
                 {/* heading  */}
                 <h1 className='text-center text-2xl font-semibold pb-4'>Recognized as a Leading Software Across Categories</h1>
