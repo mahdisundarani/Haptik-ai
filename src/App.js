@@ -1,3 +1,4 @@
+import Customers from "./components/Customers";
 import Hero from "./components/Hero";
 import ImpNumbers from "./components/ImpNumbers";
 import Industry from "./components/Industry";
@@ -16,6 +17,7 @@ function App() {
         <Socials/>
         <Industry/>
         <Partner/>
+        <Customers/>
     </div>
   );
 }

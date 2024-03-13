@@ -42,7 +42,7 @@ const Partner = () => {
                     </div>
                 </div>
                 {/* stats  */}
-                <div className='flex lg:flex-row flex-col gap-10  w-[80%] mx-auto py-10'> 
+                <div className='flex lg:flex-row flex-col gap-10 w-[80%] mx-auto py-10'> 
                     <div className='flex-1 flex flex-row justify-between'>
                         <div>
                             <h1 className='text-4xl md:text-5xl text-blue-600 font-medium text-center mx-5'>15B+</h1>

@@ -84,7 +84,7 @@ const Socials = () => {
         <p className='text-center'>Offer a seamless customer experience with Generative AI-powered assistant</p>
       </div>
       {/* socials options */}
-      <div className='flex space-x-8 justify-evenly overflow-hidden '>
+      <div className='flex space-x-8 justify-evenly overflow-hidden'>
         <div className=''>
           <button className='text-sm font-medium hover:text-xl hover:text-blue-600 hover:bg-blue-300 p-3 rounded-md focus:text-blue-600 focus:bg-blue-200'> Website</button>
         </div>
