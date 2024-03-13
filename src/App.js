@@ -1,5 +1,8 @@
+import Badge from "./components/Badge";
 import Blog from "./components/Blog";
+import Copyright from "./components/Copyright";
 import Customers from "./components/Customers";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import ImpNumbers from "./components/ImpNumbers";
 import Industry from "./components/Industry";
@@ -20,6 +23,9 @@ function App() {
         <Partner/>
         <Customers/>
         <Blog/>
+        <Footer/>
+        <Badge/>
+        <Copyright/>
     </div>
   );
 }
