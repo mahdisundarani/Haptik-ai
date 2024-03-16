@@ -97,7 +97,7 @@ const Login = () => {
             onSubmit={handleSubmit}
           >
             <input
-              className="px-4 py-2 my-3 w-[100%] rounded-md"
+              className="px-4 py-2 my-3 w-[200px] sm:w-[500px] block rounded-md"
               type="text"
               placeholder="Name*"
               id="name"
@@ -107,10 +107,10 @@ const Login = () => {
               onBlur={handleBlur}
             />
             {errors.name && touched.name ? (
-              <p className="form-error">{errors.name} </p>
+              <p className=" text-red-500">{errors.name} </p>
             ) : null}
             <input
-              className="px-4 py-2 my-3 w-[100%] rounded-md"
+              className="px-4 py-2 my-3 w-[200px] sm:w-[500px] block rounded-md"
               type="email"
               placeholder="Email*"
               id="email"
@@ -118,12 +118,12 @@ const Login = () => {
               value={values.email}
               onChange={handleChange}
               onBlur={handleBlur}
-            />
-            {errors.email && touched.email ? (
-              <p className="form-error">{errors.email} </p>
-            ) : null}
+              />
+              {errors.email && touched.email ? (
+                <p className="form-error text-red-500">{errors.email} </p>
+              ) : null}
             <input
-              className="px-4 py-2 my-3 w-[100%] rounded-md"
+              className="px-4 py-2 my-3 w-[200px] sm:w-[500px] block rounded-md"
               type="password"
               placeholder="Password*"
               id="password"
@@ -134,11 +134,11 @@ const Login = () => {
               onBlur={handleBlur}
             />
             {errors.password && touched.password ? (
-              <p className="form-error">{errors.password} </p>
+              <p className="form-error text-red-500">{errors.password} </p>
             ) : null}
             <button
               type="submit"
-              className="p-2 bg-blue-600 w-[98%] rounded-lg text-white font-medium"
+              className="p-2 bg-blue-600 w-[180px] sm:w-[480px] rounded-lg text-white font-medium"
             >
               Login
             </button>
