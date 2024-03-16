@@ -1,31 +1,36 @@
-import Badge from "./components/Badge";
-import Blog from "./components/Blog";
-import Copyright from "./components/Copyright";
-import Customers from "./components/Customers";
-import Footer from "./components/Footer";
-import Hero from "./components/Hero";
-import ImpNumbers from "./components/ImpNumbers";
-import Industry from "./components/Industry";
-import Navbar from "./components/Navbar";
-import Partner from "./components/Partner";
-import Socials from "./components/Socials";
-import SwiperAni from "./components/SwiperAni";
+
+import Home from "./components/Home";
+import Login from "./components/Login";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  // Link
+} from "react-router-dom";
+import Signin from "./components/Signin";
 
 function App() {
   return (
     <div className="">
-        <Navbar/>
-        <Hero/>
-        <SwiperAni/>
-        <ImpNumbers/>
-        <Socials/>
-        <Industry/>
-        <Partner/>
-        <Customers/>
-        <Blog/>
-        <Footer/>
-        <Badge/>
-        <Copyright/>
+      <Router>
+        <Routes>
+          <Route
+            exact
+            path="/"
+            element={<Home />}
+          />
+          <Route
+            exact
+            path="/login"
+            element={<Login />}
+          />
+          <Route
+            exact
+            path="/signin"
+            element={<Signin />}
+          />
+        </Routes>
+      </Router>
     </div>
   );
 }

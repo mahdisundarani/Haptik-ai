@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Logo from '../assets/Navbar/haptik-logo.webp'
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
+import {Link} from "react-router-dom";
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
@@ -13,7 +14,7 @@ const Navbar = () => {
             <div className=' mx-4 max-w-[1500px] '>
                 {/* large scareen navbar  */}
                 <div className='flex justify-between xl:justify-evenly'>
-                    <img className='h-14 m-3 ' src={Logo} alt="" />
+                    <img className='h-14 m-3' src={Logo} alt="" />
                     {/* large screen nav bar options*/}
                     <div className='hidden xl:flex items-center'>
                         <ul className='flex'>
@@ -25,7 +26,7 @@ const Navbar = () => {
                     </div>
                     {/* button  */}
                     <div className='hidden xl:flex'>
-                        <button className='bg-blue-600 text-white h-10 w-full mr-3 sm:w-40 lg:w-40 xl:w-40 font-bold rounded-md ml-5 mt-6 '>Get A Demo</button>
+                        <button className='bg-blue-600 text-white h-10 w-full mr-3 sm:w-40 lg:w-40 xl:w-40 font-bold rounded-md ml-5 mt-6 '><Link to="/login">Get A Demo</Link></button>
                     </div>
                     {/* logic of toggle */}
                     <div onClick={handleNav} className='xl:hidden mt-6 mr-10'>
