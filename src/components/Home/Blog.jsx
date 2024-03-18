@@ -1,5 +1,5 @@
 import React from 'react'
-import Sora from '../assets/Blog/OpenAI_Sora_160224.webp'
+import Sora from '../../assets/Home/Blog/OpenAI_Sora_160224.webp'
 const Blog = () => {
     return (
         <div className='px-6 md:px-16 pt-6 pb-10'>

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Logo from '../assets/Navbar/haptik-logo.webp'
+import Logo from '../../assets/Home/Navbar/haptik-logo.webp'
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import {Link} from "react-router-dom";
 
@@ -9,7 +9,7 @@ const Navbar = () => {
     const handleNav = () => {
         setNav(!nav);
     };
-
+    
     return (
             <div className=' mx-4 max-w-[1500px] '>
                 {/* large scareen navbar  */}

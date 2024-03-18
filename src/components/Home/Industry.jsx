@@ -2,14 +2,14 @@ import React from 'react'
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import '../App.css'
-import Retail from '../assets/Industry/Retial.webp'
-import Fintech from '../assets/Industry/Fintech.webp'
-import Insurance from '../assets/Industry/insurance-11-10-23.webp'
-import HealthCare from '../assets/Industry/healthcare-11-10-23.webp'
-import Travel from '../assets/Industry/travel-11-10-23.webp'
-import Media from '../assets/Industry/Media&Ent-11-10-233.webp'
-import Education from '../assets/Industry/education-11-10-23.webp'
+import '../../App.css'
+import Retail from '../../assets/Home/Industry/Retial.webp'
+import Fintech from '../../assets/Home/Industry/Fintech.webp'
+import Insurance from '../../assets/Home/Industry/insurance-11-10-23.webp'
+import HealthCare from '../../assets/Home/Industry/healthcare-11-10-23.webp'
+import Travel from '../../assets/Home/Industry/travel-11-10-23.webp'
+import Media from '../../assets/Home/Industry/Media&Ent-11-10-233.webp'
+import Education from '../../assets/Home/Industry/education-11-10-23.webp'
 
 const Industry = () => {
 

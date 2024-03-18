@@ -1,8 +1,8 @@
 import React from 'react'
-import Jio from '../assets/ImpNumbers/jio.webp'
-import Netmeds from '../assets/ImpNumbers/Netmeds_card-logo.webp'
-import StarHub from '../assets/ImpNumbers/Starhublogo-card-logo.webp'
-import PaisaBazaar from '../assets/ImpNumbers/paisabazaar-card-logo.webp'
+import Jio from '../../assets/Home/ImpNumbers/jio.webp'
+import Netmeds from '../../assets/Home/ImpNumbers/Netmeds_card-logo.webp'
+import StarHub from '../../assets/Home/ImpNumbers/Starhublogo-card-logo.webp'
+import PaisaBazaar from '../../assets/Home/ImpNumbers/paisabazaar-card-logo.webp'
 const ImpNumbers = () => {
     return (
         <div className='m-10'>

@@ -1,9 +1,9 @@
 import React from 'react'
-import Twitter from '../assets/Footer/twitter.svg'
-import Linkdin from '../assets/Footer/linkdin.svg'
-import Facebook from '../assets/Footer/facebook.svg'
-import Instagram from '../assets/Footer/instagram.svg'
-import Youtube from '../assets/Footer/youtube.svg'
+import Twitter from '../../assets/Home/Footer/twitter.svg'
+import Linkdin from '../../assets/Home/Footer/linkdin.svg'
+import Facebook from '../../assets/Home/Footer/facebook.svg'
+import Instagram from '../../assets/Home/Footer/instagram.svg'
+import Youtube from '../../assets/Home/Footer/youtube.svg'
 
 const Footer = () => {
     return (

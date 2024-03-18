@@ -1,16 +1,16 @@
 import React from 'react'
-import Badge from "./Badge";
-import Blog from "./Blog";
-import Copyright from "./Copyright";
-import Customers from "./Customers";
-import Footer from "./Footer";
-import Hero from "./Hero";
-import ImpNumbers from "./ImpNumbers";
-import Industry from "./Industry";
-import Navbar from "./Navbar";
-import Partner from "./Partner";
-import Socials from "./Socials";
-import SwiperAni from "./SwiperAni";
+import Badge from "./Home/Badge";
+import Blog from "./Home/Blog";
+import Copyright from "./Home/Copyright";
+import Customers from "./Home/Customers";
+import Footer from "./Home/Footer";
+import Hero from "./Home/Hero";
+import ImpNumbers from "./Home/ImpNumbers";
+import Industry from "./Home/Industry";
+import Navbar from "./Home/Navbar";
+import Partner from "./Home/Partner";
+import Socials from "./Home/Socials";
+import SwiperAni from "./Home/SwiperAni";
 
 const Home = () => {
   return (

@@ -2,14 +2,14 @@ import React from 'react'
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import '../App.css'
-import Jio from '../assets/Customers/JioMart_logo_200223.webp'
-import Mark from '../assets/Customers/Mark_Zukerberg_220223.webp'
-import Upstox from '../assets/Customers/upstox-27-1-23.svg'
-import Shrini from '../assets/Customers/shrini-19-12-2022.webp'
-import Kotak from '../assets/Customers/kotak-19-12-2022.svg'
-import Kirti from '../assets/Customers/kotak-kirti-patil-19-12-2022.webp'
-import Badge from '../assets/Customers/Badge-tile-.webp'
+import '../../App.css'
+import Jio from '../../assets/Home/Customers/JioMart_logo_200223.webp'
+import Mark from '../../assets/Home/Customers/Mark_Zukerberg_220223.webp'
+import Upstox from '../../assets/Home/Customers/upstox-27-1-23.svg'
+import Shrini from '../../assets/Home/Customers/shrini-19-12-2022.webp'
+import Kotak from '../../assets/Home/Customers/kotak-19-12-2022.svg'
+import Kirti from '../../assets/Home/Customers/kotak-kirti-patil-19-12-2022.webp'
+import Badge from '../../assets/Home/Customers/Badge-tile-.webp'
 
 const Customers = () => {
     function SampleNextArrow(props) {

@@ -1,14 +1,14 @@
 import React from 'react'
-import Google from '../assets/Socials/google-social.webp'
+import Google from '../../assets/Home/Socials/google-social.webp'
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import '../App.css'
-import Border from '../assets/Socials/google-border.webp'
-import Website from '../assets/Socials/Website-social.webp'
-import Whatsapp from '../assets/Socials/whatsapp-social.webp'
-import Instagram from '../assets/Socials/Instagram-social.webp'
-import Messanger from '../assets/Socials/Messenger-social.webp'
+import '../../App.css'
+import Border from '../../assets/Home/Socials/google-border.webp'
+import Website from '../../assets/Home/Socials/Website-social.webp'
+import Whatsapp from '../../assets/Home/Socials/whatsapp-social.webp'
+import Instagram from '../../assets/Home/Socials/Instagram-social.webp'
+import Messanger from '../../assets/Home/Socials/Messenger-social.webp'
 const Socials = () => {
 
   const settings = {

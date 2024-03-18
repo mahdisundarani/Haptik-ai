@@ -1,7 +1,7 @@
 import React from 'react'
-import Expertise from '../assets/Partner/expertise.webp'
-import Product from '../assets/Partner/product.webp'
-import Scale from '../assets/Partner/scale.webp'
+import Expertise from '../../assets/Home/Partner/expertise.webp'
+import Product from '../../assets/Home/Partner/product.webp'
+import Scale from '../../assets/Home/Partner/scale.webp'
 
 const Partner = () => {
     return (

@@ -1,9 +1,9 @@
 import React from "react";
-import Navbar from "./Navbar";
-import SwiperAni from "./SwiperAni";
-import Footer from "./Footer";
-import Badge from "./Badge";
-import Copyright from "./Copyright";
+import Navbar from "./Home/Navbar";
+import SwiperAni from "./Home/SwiperAni";
+import Footer from "./Home/Footer";
+import Badge from "./Home/Badge";
+import Copyright from "./Home/Copyright";
 import { Link } from "react-router-dom";
 import { useFormik } from "formik";
 import { signInSchema } from "../schemas";
