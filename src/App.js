@@ -8,6 +8,7 @@ import {
   // Link
 } from "react-router-dom";
 import Signin from "./components/Signin";
+import Contakt from "./components/Contakt/Contakt";
 
 function App() {
   return (
@@ -28,6 +29,11 @@ function App() {
             exact
             path="/signin"
             element={<Signin />}
+          />
+          <Route
+            exact
+            path="/contakt"
+            element={<Contakt />}
           />
         </Routes>
       </Router>
