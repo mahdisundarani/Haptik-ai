@@ -5,18 +5,16 @@ import Whirlpool from "../../assets/Contakt/ImpNums/Whirlpool-6-1-23.webp";
 import Starhub from "../../assets/Contakt/ImpNums/starhub-80px.webp";
 const ImpNums = () => {
   return (
-    <div className="m-10">
+    <div className=" px-6 md:px-24 py-10">
       {/* heading  */}
       <div className="">
         <h1 className="font-medium text-xl md:text-3xl text-center mb-4">
-          Haptik's Impact in Numbers
+          Customer Support That Drives REAL Results
         </h1>
       </div>
       {/* subheading */}
       <div className="hidden md:flex justify-center pb-8">
-        <p className="text-center">
-          The tangible outcomes achieved by our clients
-        </p>
+        <p className="text-center">The biggest brands grow with Haptik</p>
       </div>
       {/* cards */}
       <div className="flex gap-6 sm:flex-wrap h-[200px]">

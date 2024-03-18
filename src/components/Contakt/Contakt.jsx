@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../Home/Navbar'
 import Hero from './Hero'
 import ImpNums from './ImpNums'
+import Support from './Support'
 
 const Contakt = () => {
   return (
@@ -9,6 +10,7 @@ const Contakt = () => {
         <Navbar/>
         <Hero/>
         <ImpNums/>
+        <Support/>
     </div>
   )
 }
