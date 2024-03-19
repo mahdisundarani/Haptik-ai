@@ -6,6 +6,7 @@ import Support from './Support'
 import Asistant from './Asistant'
 import Copilot from './Copilot'
 import Intelligent from './Intelligent'
+import Usage from './Usage'
 
 const Contakt = () => {
   return (
@@ -17,6 +18,7 @@ const Contakt = () => {
         <Asistant/>
         <Copilot/>
         <Intelligent/>
+        <Usage/>
     </div>
   )
 }
