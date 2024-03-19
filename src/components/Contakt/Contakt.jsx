@@ -7,6 +7,10 @@ import Asistant from './Asistant'
 import Copilot from './Copilot'
 import Intelligent from './Intelligent'
 import Usage from './Usage'
+import Customer from './Customer'
+import Footer from '../Home/Footer'
+import Badge from '../Home/Badge'
+import Copyright from '../Home/Copyright'
 
 const Contakt = () => {
   return (
@@ -19,6 +23,10 @@ const Contakt = () => {
         <Copilot/>
         <Intelligent/>
         <Usage/>
+        <Customer/>
+        <Footer />
+        <Badge />
+        <Copyright />
     </div>
   )
 }
