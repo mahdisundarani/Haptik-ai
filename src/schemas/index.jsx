@@ -15,3 +15,11 @@ export const signInSchema =  Yup.object({
     .required()
     .oneOf([Yup.ref("password"), null], "Password must match"),
 }) 
+
+export const Demo = Yup.object({
+    name:Yup.string().min(2).max(25).required("please enter your name"),
+    cname:Yup.string().min(2).max(25).required("please enter your company name"),
+    email:Yup.string().email().required("please enter your email"),
+    jtitle:Yup.string().required("please enter your job title"),
+    pno:Yup.number().required("please enter your phone number"),
+})

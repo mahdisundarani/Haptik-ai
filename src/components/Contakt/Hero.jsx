@@ -14,6 +14,10 @@ const Hero = () => {
               <span className="text-blue-600"> Scale</span>
             </h1>
           </div>
+          {/* vedio in small device  */}
+          <div className="lg:hidden flex flex-1 items-center m-16 ">
+          <video src={Vedio} controls className="rounded-xl"></video>
+        </div>
           {/* subheading */}
           <div className="m-8">
             <p>
@@ -30,7 +34,7 @@ const Hero = () => {
           </div>
         </div>
         {/* image  */}
-        <div className="hidden md:flex flex-1 items-center m-16 ">
+        <div className="hidden lg:flex flex-1 items-center m-16 ">
           <video src={Vedio} controls className="rounded-xl"></video>
         </div>
       </div>
