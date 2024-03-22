@@ -46,6 +46,7 @@ const Industry = () => {
         </button>
         <Swiper
           // navigation={true}
+          loop={true}
           modules={[Navigation]}
           navigation={{
             nextEl: ".NextSame",
@@ -134,6 +135,7 @@ const Industry = () => {
       {/* content slider  */}
       <div className="">
         <Swiper
+          loop={true}
           className="mySwiper"
           modules={[Navigation]}
           navigation={{
