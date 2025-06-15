@@ -12,7 +12,7 @@ import Messanger from "../../assets/Home/Socials/Messenger-social.webp";
 const Socials = () => {
   const settings = {
     infinite: true,
-    slidesToShow: 8,
+    slidesToShow: 1,
     slidesToScroll: 1,
     cssEase: "linear",
     responsive: [
